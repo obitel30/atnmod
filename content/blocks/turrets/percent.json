@@ -1,0 +1,33 @@
+{
+   "type": "ItemTurret"
+   "name": "Percent",
+   "description": "",
+   "health": 235,
+   "size": 1,
+   "range": 240,
+   "reload": 15,
+   
+   "ammoTypes": {
+      "lead": {
+           "speed": 7.0,
+           "damage": 3.5,
+           "type": "FlakBulletType",
+		   
+      }
+   },
+   "requirements": [
+      {"item": "lead", "amount": 35},
+      {"item": "act", "amount": 20},
+     
+   ],
+   "research": {
+       "parent": "coretypea"
+       "requirements": [
+          {"item": "lead", "amount": 350},
+          {"item": "act", "amount": 200},
+          
+       ],
+       "planet": "a3"
+   },
+   "category": "effect"
+}

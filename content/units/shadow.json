@@ -1,0 +1,48 @@
+{
+  "name": "Shadow",
+  "description": "",
+  "speed": 3.8,
+  "accel": 0.8,
+  "drag": 0.6,
+  "rotateSpeed": 12,
+  "flying": true,
+  "health": 195,
+  "armor": 0.7,
+  "targetGround": true,
+  "targetAir": true,
+  
+  "weapons": [
+    {
+      
+	  "mirror": true,
+	  "x": 2,
+	  "y": 1,
+      "reload": 15,
+	  "top": false,
+      "shootSound": "pew",
+      "ejectEffect": "none",
+      "smokeEffect": "none",
+	  "rotate": true,
+      "recoil": 0.2,
+      "bullet":{
+        "damage": 10,
+        "speed": 6,
+        
+        
+        
+        "type": "MissileBulletType"
+      },
+      
+    }
+  ],
+  	  "engines": [
+  {
+    "x": 0,
+    "y": -3,
+    "rotation": 0,
+    "radius": 2.5,
+  }
+  
+]
+
+}

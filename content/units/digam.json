@@ -1,0 +1,51 @@
+{
+  "name": "Digamma",
+  "description": "",
+  "speed": 3.5,
+  "accel": 0.8,
+  "drag": 0.6,
+  "rotateSpeed": 8,
+  "flying": true,
+  "health": 240,
+  "armor": 0.2,
+  "buildSpeed": 1.8,
+  "targetGround": true,
+  "targetAir": true,
+  "destructableWreck": "false",
+  "weapons": [
+    {
+      "name": "small-weap",
+	  "mirror": true,
+	  "x": 4,
+	  "y": 3,
+      "reload": 10,
+	  "top": false,
+      "shootSound": "pew",
+      "ejectEffect": "none",
+      "smokeEffect": "none",
+	  "rotate": true,
+      "recoil": 0.2,
+      "bullet":{
+        "damage": 2,
+        "speed": 10,
+        "width": 7,
+        "pierceDamageFactor": -99,
+        "length": 25,
+        
+        
+        "type": "FlakBulletType"
+      },
+      
+    }
+  ],
+  	  "engines": [
+  {
+    "x": 0,
+    "y": -6.5,
+    "rotation": 0,
+    "radius": 3,
+  }
+  
+]
+
+}

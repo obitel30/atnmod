@@ -1,0 +1,12 @@
+{
+  "localizedName": "Sector B",
+  "description": "First sector on ATN-324.",
+  "difficulty": 1,
+  "planet": "a3",
+  "captureWave": 15,
+  "sector": 2,
+  "isLastSector": false,
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": false,
+}

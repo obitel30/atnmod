@@ -1,0 +1,21 @@
+{
+	 "name": "Lead Junction",
+	 "type": "Junction",
+	 "speed": 6.5,
+	 "capacity": 5,
+	 "isDuct": true,
+	 "health": 70,
+	 "requirements": [
+      
+      {"item": "lead", "amount": 2},
+   ],
+   "research": {
+       "parent": "convchanell"
+       "requirements": [
+          {"item": "lead", "amount": 45},
+          
+          
+       ],
+       
+   },
+}

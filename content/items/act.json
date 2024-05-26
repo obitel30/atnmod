@@ -1,0 +1,11 @@
+{
+   "type": "material",
+   "name": "Actinium",
+   "description": "",
+   "tier": 1,
+   "hardness": 1,
+   "color": "696969",
+   "research": {
+      "parent": "coretypea"
+   }
+}

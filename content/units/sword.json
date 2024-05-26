@@ -1,0 +1,43 @@
+{
+   "name": "Sword",
+   "description": "",
+   "type": "mech",
+   "health": 345,
+   "speed": 0.7,
+   "flying": false,
+   "armor": 0.2,
+   "range": 70,
+   "drag": 0.3,
+   "accel": 0.4,
+   "targetGround": true,
+   "targetAir": true,
+   
+   
+   "weapons": [
+     {
+      "name": "small-weap",
+	  "x": 4.8,
+	  "top": false,
+	  "y": -2,
+      "reload": 35,
+      "recoil": 1,
+	  "mirror": true,
+	  
+      "bullet": {
+        "damage": 15,
+        "speed": 2.6,
+        "color": "f5d442",
+        "type": "BasicBulletType"
+      }
+      
+     }
+   ],
+   "research": {
+     "parent": "construct",
+     "requirements": [
+       {"item": "lead", "amount": 350},
+	   {"item": "mplast", "amount": 200},
+     ],
+     
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "name": "Actinium Drill",
+   "description": "",
+   "type": "Drill",
+   "drawSpinSprite": false,
+   "tier": 1,
+   "drillTime": 650,
+   "size": 2,
+   "requirements": [
+      {"item": "act", "amount": 6},
+      {"item": "lead", "amount": 8}
+   ],
+   "research": {
+      "parent": "coretypea",
+      "requirements": [
+         {"item": "act", "amount": 120},
+         {"item": "lead", "amount": 160}
+      ],
+      
+   },
+   "category": "production"
+}

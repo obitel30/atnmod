@@ -1,0 +1,21 @@
+{
+	 "name": "Lead Router",
+	 "type": "DuctRouter",
+	 "speed": 6.5,
+	 "capacity": 5,
+	 "isDuct": true,
+	 "health": 85,
+	 "requirements": [
+      
+      {"item": "lead", "amount": 3},
+   ],
+   "research": {
+       "parent": "convchanell"
+       "requirements": [
+          {"item": "lead", "amount": 75},
+          
+          
+       ],
+       
+   },
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Actinium Wall",
+  "description": "",
+  "type": "Wall",
+  "health": 350,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "act",
+      "amount": 6
+    }
+  ],
+  "category": "defense",
+  "research": {
+   "parent": "coretypea",
+   "requirements": [
+          {"item": "act", "amount": 60},
+          
+          
+       ],
+  }
+}

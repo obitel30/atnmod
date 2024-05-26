@@ -1,0 +1,11 @@
+{
+   "type": "material",
+   "name": "Meta-Plastanium",
+   "description": "",
+   "tier": 3,
+   "hardness": 1,
+   "color": "d4cd46",
+   "research": {
+      "parent": "metacomp"
+   }
+}

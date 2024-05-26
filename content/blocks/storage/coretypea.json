@@ -1,0 +1,27 @@
+{
+   "type": "CoreBlock"
+   "name": "Core Type A"
+   "category": "effect"
+   "health": 985
+   "size": 2
+   "itemCapacity": 2500
+   "unitCapModifier": 6
+
+   "incinerateNonBuildable": true
+   "isFirstTier": true
+   "squareSprite": false
+   "unitType": "digam"
+
+   "requirements": [
+     {"item": "mplast", "amount": 680}
+     {"item": "lead", "amount": 1250}
+   ]
+
+"research": {
+    "root": true
+    "name": "ATN-324"
+   	"planet": "a3"
+}
+
+   "alwaysUnlocked": true
+}

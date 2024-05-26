@@ -1,0 +1,31 @@
+{
+   "type": "ItemTurret"
+   "name": "Single Turret",
+   "description": "",
+   "health": 280,
+   "size": 1,
+   "range": 120,
+   "reload": 20,
+   "ammoTypes": {
+      "act": {
+           "speed": 10.0,
+           "damage": 15.5,
+           "type": "BasicBulletType"
+      }
+   },
+   "requirements": [
+      {"item": "lead", "amount": 20},
+      {"item": "act", "amount": 15},
+     
+   ],
+   "research": {
+       "parent": "coretypea"
+       "requirements": [
+          {"item": "lead", "amount": 200},
+          {"item": "act", "amount": 150},
+          
+       ],
+       "planet": "a3"
+   },
+   "category": "effect"
+}

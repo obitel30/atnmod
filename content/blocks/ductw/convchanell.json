@@ -1,0 +1,21 @@
+{
+	 "name": "Lead Duct",
+	 "type": "Duct",
+	 "speed": 2.5,
+	 "capacity": 3,
+	 "isDuct": true,
+	 "health": 50,
+	 "requirements": [
+      
+      {"item": "lead", "amount": 1},
+   ],
+   "research": {
+       "parent": "coretypea"
+       "requirements": [
+          {"item": "lead", "amount": 15},
+          
+          
+       ],
+       
+   },
+}

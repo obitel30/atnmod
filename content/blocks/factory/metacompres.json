@@ -1,0 +1,36 @@
+{
+   "type": "GenericCrafter",
+   "name": "Meta-Component Compressor",
+   "description": "",
+   "outputItem": {"item": "metacomp", "amount": 1},
+   "size": 2,
+   "hasPower": false,
+   "hasItem": true,
+   "health": 360,
+   "craftTime": 40,
+   "updateSound": "explosion",
+   "updateEffect": "turbinegenerate",
+   "consumes": {
+       "items": {
+          "items": [
+              {"item": "lead", "amount": 2},
+              {"item": "act", "amount": 1}
+          ]
+       }
+   },
+   "requirements": [
+       {"item": "lead", "amount": 45},
+       {"item": "act", "amount": 25}
+   ],
+   "category": "crafting",
+   "research": {
+       "parent": "coretypea"
+       "requirements": [
+            {"item": "lead", "amount": 450},
+            {"item": "act", "amount": 250}
+       ],
+       "planet": "a3"
+   },
+   "idleSound": "respawning",
+   "idleSoundVolume": 0.3
+}
